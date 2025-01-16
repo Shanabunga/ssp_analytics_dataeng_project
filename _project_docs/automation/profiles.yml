@@ -28,4 +28,3 @@ ssp_analytics:
       type: postgres
       user: "{{ env_var('DBT_USER') }}"
   target: dev
-  
