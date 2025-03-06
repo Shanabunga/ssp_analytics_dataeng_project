@@ -1,5 +1,9 @@
-## Our dbt Project
-This repository consists of a [dbt](https://www.getdbt.com/) project that transforms raw data sources into clear, formatted models for Analytics.
+## Data Engineering Project, aka Simple Stack
+This repository consists of a [dbt](https://www.getdbt.com/) project designed to transform raw data into structured, analytics-ready models. The project follows modern data engineering best practices, ensuring efficient, scalable, and maintainable data workflows.
+
+The goal of this project is to implement a simple and effective data architecture that can support analytics and reporting needs. It integrates data ingestion, transformation, testing, and deployment into a streamlined process, ensuring high-quality data pipelines.
+
+The project emphasizes minimal tooling, clear structure, and automation to build a scalable and maintainable data pipeline. This ensures that the project can grow with evolving business needs while maintaining efficiency and data quality.
 
 ![Tech Stack](https://github.com/user-attachments/assets/f2144404-0a10-48a8-9122-bbcbef94374f)
 
