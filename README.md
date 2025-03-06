@@ -1,6 +1,8 @@
 ## Our dbt Project
 This repository consists of a [dbt](https://www.getdbt.com/) project that transforms raw data sources into clear, formatted models for Analytics.
 
+![Tech Stack](https://github.com/user-attachments/assets/f2144404-0a10-48a8-9122-bbcbef94374f)
+
 To learn more about the overall architecture design & strategy can be found in our centralized handbook:
 - [Data Architecture Handbook](https://docs.google.com/document/d/1WmOnx_5QaGmo-kNWitd9jSEwvEnwqxiS0ZA1jmMV-v0/edit?usp=sharing)
 
