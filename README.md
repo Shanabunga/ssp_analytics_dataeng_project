@@ -21,7 +21,7 @@ Raw, unformatted data loaded directly from source systems using various data too
 ## Environments:
 Transformed data models built via dbt with 3 distinct environments to enable a sustainable development workflow.
 - **Development**
-   - Schema: `analytics.dev_[your-name]`
+   - Schema: `analytics.dev_wilson
    - One per developer to avoid conflicts or overriding changes during development.
 - **CI**
    - Schema: `analytics.ci`
