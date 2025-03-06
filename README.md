@@ -6,7 +6,7 @@ This repository consists of a [dbt](https://www.getdbt.com/) project that transf
 To learn more about the overall architecture design & strategy can be found in our centralized handbook:
 - [Data Architecture Handbook](https://docs.google.com/document/d/1WmOnx_5QaGmo-kNWitd9jSEwvEnwqxiS0ZA1jmMV-v0/edit?usp=sharing)
 
-## ** Sources: **
+## Sources: 
 Raw, unformatted data loaded directly from source systems using various data tools.
 - `nba_data` - The primary source of NBA statistics data captured from an API & loaded via Sling/Airbyte.
     - Schema: `analytics.raw_nba_data`
@@ -14,7 +14,7 @@ Raw, unformatted data loaded directly from source systems using various data too
     - Schema: `analytics.raw_google_sheets`
 
 
-### Environments:
+## Environments:
 Transformed data models built via dbt with 3 distinct environments to enable a sustainable development workflow.
 - **Development**
    - Schema: `analytics.dev_[your-name]`
@@ -29,7 +29,7 @@ Transformed data models built via dbt with 3 distinct environments to enable a s
         - `analytics.marts`
    - Separation by layer for easier navigation and permission management.
 
-### How to Get Started?
+## How to Get Started?
 1. Create your local development environment
    - Use a local IDE (ex. VS Code), dbt Cloud or GitHub Codespaces
 2. Clone the current repo (or create a new one)
@@ -50,10 +50,10 @@ Transformed data models built via dbt with 3 distinct environments to enable a s
    - Run "git pull" to sync the latest version of the code
 8. Continue to develop & repeat the process
 
-### Notes
+## Notes
 - Provide any other important call-outs of platform-specific information here.
 
-### Resources:
+## Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
 - Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
