@@ -10,7 +10,7 @@ The project emphasizes minimal tooling, clear structure, and automation to build
 To learn more about the overall architecture design & strategy can be found in our centralized handbook:
 - [Data Architecture Handbook](https://docs.google.com/document/d/1WmOnx_5QaGmo-kNWitd9jSEwvEnwqxiS0ZA1jmMV-v0/edit?usp=sharing)
 
-## ** Sources: ** 
+## **Sources:** 
 Raw, unformatted data loaded directly from source systems using various data tools.
 - `nba_data` - The primary source of NBA statistics data captured from an API & loaded via Sling/Airbyte.
     - Schema: `analytics.raw_nba_data`
